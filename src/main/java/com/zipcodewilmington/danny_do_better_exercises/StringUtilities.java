@@ -100,6 +100,10 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverse(String stringToReverse){
-        return null;
+        String reverse ="";
+        for (int i=stringToReverse.length()-1;i>=0;i--){
+            reverse+=stringToReverse.charAt(i);
+        }
+        return reverse;
     }
 }
